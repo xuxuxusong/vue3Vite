@@ -10,21 +10,21 @@ const routes = [
     name: 'demo',
     component: () => import('../demo.vue')
   },
-  {
-    path: '/xuan',
-    name: 'xuan',
-    component: () => import('../xuan.vue')
-  },
+  // {
+  //   path: '/xuan',
+  //   name: 'xuan',
+  //   component: () => import('../xuan.vue')
+  // },
   {
     path: '/loading',
     name: 'loading',
     component: () => import('../loading.vue')
   },
-  {
-    path: '/wave',
-    name: 'wave',
-    component: () => import('../wave.vue')
-  },
+  // {
+  //   path: '/wave',
+  //   name: 'wave',
+  //   component: () => import('../wave.vue')
+  // },
   {
     path: '/learn',
     name: 'learn',
@@ -45,11 +45,11 @@ const routes = [
     name: 'learn03',
     component: () => import('../view/test/learn03.vue')
   },
-  {
-    path: '/learn04',
-    name: 'learn04',
-    component: () => import('../view/test/learn04.vue')
-  },
+  // {
+  //   path: '/learn04',
+  //   name: 'learn04',
+  //   component: () => import('../view/test/learn04.vue')
+  // },
   {
     path: '/debounce',
     name: 'debounce',
