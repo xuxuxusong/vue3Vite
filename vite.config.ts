@@ -4,10 +4,15 @@ import path from 'path'
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  publicPath: process.env.NODE_ENV === 'production' ? './' : '/',
   plugins: [
     vue()
   ],
+  // indexPath: 'index.html',
+  // publicPath: './',
+  build: {
+    outDir: 'docs',
+    assetsDir: 'assets'
+  },
   server: {
     host: '0.0.0.0', // ip地址
     port: 80, // 设置服务启动端口号
@@ -18,5 +23,5 @@ export default defineConfig({
       { find: '@', replacement: path.resolve(__dirname, "src") }
     ]
   },
-  base: "./"
+  base: "/vue3Vite/"
 })
