@@ -19,6 +19,7 @@
 <script setup>
   import { provide, ref, onMounted } from 'vue';
   const arr = ['B分支']
+  const str = '这是A分支的修改'
   provide('flag', ref('哈哈看看看'))
   // onMounted(() => {
   //   handleScreenAuto()
