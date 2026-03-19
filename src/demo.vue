@@ -16,7 +16,7 @@ import { ref, reactive } from 'vue'
 defineProps<{ msg: string }>()
 
 const count = ref(0)
-// const tabList = reactive()
+const tabList = reactive()
 </script>
 <style scoped lang="scss">
 .page {
