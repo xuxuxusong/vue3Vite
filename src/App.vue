@@ -18,7 +18,7 @@
 </template>
 <script setup>
   import { provide, ref, onMounted } from 'vue';
-  provide('flag', ref('哈哈'))
+  provide('flag', ref('哈哈嘻嘻'))
   // onMounted(() => {
   //   handleScreenAuto()
   //   // 绑定自适应函数   ---防止浏览器栏变化后不再适配
