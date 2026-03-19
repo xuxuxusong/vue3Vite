@@ -18,6 +18,7 @@
 </template>
 <script setup>
   import { provide, ref, onMounted } from 'vue';
+  const arr = ['B分支']
   provide('flag', ref('哈哈看看看'))
   // onMounted(() => {
   //   handleScreenAuto()
