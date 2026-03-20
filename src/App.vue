@@ -18,7 +18,7 @@
 </template>
 <script setup>
   import { provide, ref, onMounted } from 'vue';
-  const str = '这是A分支的修改'
+  const str = '这是A分支的修改啦啦啦'
   provide('flag', ref('哈哈看看看'))
   // onMounted(() => {
   //   handleScreenAuto()
